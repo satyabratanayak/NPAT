@@ -6,11 +6,10 @@ public class InputPlayers {
     String place;
     String animal;
     String thing;
-    public String player1Name;
 
     // String name, String place, String animal, String thing
     public InputPlayers(String playerName) {
-        playerName = this.playerName;
+        this.playerName = playerName;
         // name = this.name;
         // place = this.place;
         // animal = this.animal;
